@@ -1,0 +1,72 @@
+/* ModulePage.css */
+
+/* Container styles */
+.module-page-container {
+    display: flex;
+    height: calc(100vh - 60px);
+    background-color: #F5F5F5;
+  }
+  
+  /* Left sidebar styles */
+  .left-sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    background-color: #0077B6;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #004C87;
+  }
+  
+  /* Right content styles */
+  .right-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .right-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .right-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .right-content ul {
+    margin-bottom: 10px;
+  }
+  
+  .right-content li {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Symbol styles */
+  .fa-book {
+    margin-top: 15px;
+  }
+  
+  .fa-question {
+    margin-top: 20px;
+  }
+  
+  .fa-file-alt {
+    margin-top: 20px;
+  }
+  

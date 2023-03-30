@@ -1,0 +1,21 @@
+.assignment-content {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .assignment-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .assignment-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .assignment-content p:last-child {
+    margin-bottom: 0;
+  }
+  

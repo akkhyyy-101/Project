@@ -1,0 +1,75 @@
+/* Homepage.css */
+
+/* Dropdown styles */
+.dropdown-container {
+    position: relative;
+  }
+  .back{
+    background-color: #12CBC4;
+  }
+  
+  .dropdown-btn {
+    background-color: #0077B6;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .dropdown-option {
+    cursor: pointer;
+    padding: 10px 0;
+  }
+  
+  .dropdown-option:hover {
+    background-color: #F1F1F1;
+  }
+  
+  /* Blue bar styles */
+  .blue-bar {
+    background-color: #0077B6;
+    color: white;
+    padding: 20px 20px;
+    margin-top: 20px;
+  }
+  
+  /* Static content styles */
+  .static-content {
+    padding: 20px;
+  
+  }
+  
+  .static-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .static-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .static-content ul {
+    margin-bottom: 10px;
+  }
+  
+  .static-content li {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  

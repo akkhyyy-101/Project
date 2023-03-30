@@ -1,0 +1,16 @@
+.topic-content {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .topic-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .topic-content p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  

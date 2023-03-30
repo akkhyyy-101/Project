@@ -1,0 +1,31 @@
+.instructor-page {
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav li {
+    font-size: 1.2rem;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  nav li a:hover {
+    color: #0066cc;
+  }
+  
